@@ -1,0 +1,9 @@
+@import url('./__title/wrapper__title.css');
+
+.wrapper {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
