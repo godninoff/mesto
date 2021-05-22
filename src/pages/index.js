@@ -1,4 +1,5 @@
-import { initialCards, popupEdit, popupAddCard, profileOpenButton, popupAddCardButton, inputName, inputJob, newName,
+import {initialCards} from '../utils/initial-сards.js';
+import { popupEdit, popupAddCard, profileOpenButton, popupAddCardButton, inputName, inputJob, newName,
    newJob, editProfileForm, newCardForm, popupPhoto, renderElements, cardsTemplate, validationConfig } from '../utils/constants.js';
 import {FormValidator}  from '../components/FormValidator.js';
 import {Card} from '../components/Card.js';
