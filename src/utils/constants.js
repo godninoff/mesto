@@ -6,7 +6,7 @@
   export const inputName = document.querySelector('.popup__input_type_name');
   export const inputJob = document.querySelector('.popup__input_type_description');
   export const userAvatar = document.querySelector('.profile__avatar');
-  export const popupEditAvatar = '.popup__update-avatar';
+  export const popupEditAvatar = '.popup_update-avatar';
   export const popupEditAvatarOpened = document.querySelector('.profile__avatar-button');
   export const newName = document.querySelector('.profile__title');
   export const newJob = document.querySelector('.profile__subtitle');
