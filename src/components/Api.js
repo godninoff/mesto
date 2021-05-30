@@ -68,8 +68,8 @@ createCard(formData) {
     })
 }
 
-removeCard(cardId) {
-    return fetch(`${this._address}/cards/${cardId}`, {
+removeCard(id) {
+    return fetch(`${this._address}/cards/${id}`, {
         method: 'DELETE',
         headers: this._headers,
     })

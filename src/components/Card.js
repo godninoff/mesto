@@ -25,7 +25,6 @@ export class Card {
         this._likeCounter();
         this._setEventListeners();
         this._removeCardHandler();
-        this._element.querySelector('.popup__caption').textContent = this._name;
         cardElement.src = this._link;
         cardElement.alt = this._name;
         return this._element;
