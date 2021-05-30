@@ -22,6 +22,7 @@ export class Card {
         const cardElement = this._element.querySelector('.element__image');
         this._like = this._element.querySelector('.element__like');
         this._cardRemove = this._element.querySelector('.element__remove');
+        this._element.querySelector('.element__name').textContent = this._name;
         this._likeCounter();
         this._setEventListeners();
         this._removeCardHandler();
