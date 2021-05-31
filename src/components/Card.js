@@ -8,7 +8,6 @@ export class Card {
         this._handlerRemoveCard = handlerRemoveCard;
         this._likes = data.likes;
         this._cardId = data._id;
-        this._currentUser = userId;
         this._cardLike = handlerLikeClick;
         this._ownerId = data.owner._id;
         this._userId = userId;
@@ -56,7 +55,7 @@ export class Card {
 
   likeCard() {
     return Boolean(this._likes.find(
-      (item) => item._id === this._currentUser))
+      (item) => item._id === this._userId))
   }
 
   likeData(data) {

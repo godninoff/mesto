@@ -8,7 +8,6 @@ export class PopupRemoveConfirm extends Popup {
       open(cardData) {
         super.open();
         this._cardData = cardData;
-        return this._card;
       }
     
       setEventListeners() {
